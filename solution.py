@@ -12,4 +12,4 @@ def solution(x: np.array) -> float:
     # Не меняйте название функции и её аргументы
     #print("Дайте пожалуйста еще неделю на решение задачи!")
     #return x.mean() # Ваш ответ
-    return 423 + np.exp(x.mean())
+    return np.exp(x.mean())
